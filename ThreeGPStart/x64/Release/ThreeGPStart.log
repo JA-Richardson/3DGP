@@ -1,0 +1,28 @@
+﻿  Camera.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  Helper.cpp
+  ImageLoader.cpp
+  main.cpp
+  Mesh.cpp
+  Renderer.cpp
+C:\Users\arich\OneDrive\Documents\3GP Finished\ThreeGPStart\Renderer.cpp(233,37): warning C4267: '=': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\arich\OneDrive\Documents\3GP Finished\ThreeGPStart\Renderer.cpp(288,39): warning C4267: '=': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\arich\OneDrive\Documents\3GP Finished\ThreeGPStart\Renderer.cpp(346,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\arich\OneDrive\Documents\3GP Finished\ThreeGPStart\Renderer.cpp(347,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\arich\OneDrive\Documents\3GP Finished\ThreeGPStart\Renderer.cpp(375,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\arich\OneDrive\Documents\3GP Finished\ThreeGPStart\Renderer.cpp(376,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\arich\OneDrive\Documents\3GP Finished\ThreeGPStart\Renderer.cpp(427,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\arich\OneDrive\Documents\3GP Finished\ThreeGPStart\Renderer.cpp(486,34): warning C4267: '=': conversion from 'size_t' to 'GLuint', possible loss of data
+  Simulation.cpp
+  glew.c
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\arich\OneDrive\Documents\3GP Finished\ThreeGPStart\Renderer.cpp(666): warning C4715: 'Renderer::InitialiseGeometry': not all control paths return a value
+  All 2505 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ThreeGPStart.vcxproj -> C:\Users\arich\OneDrive\Documents\3GP Finished\x64\Release\ThreeGPStart.exe
