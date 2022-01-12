@@ -441,7 +441,7 @@ bool Renderer::InitialiseGeometry()
 	}
 
 	Helpers::ImageLoader Terrain;
-	if (Terrain.Load("Data\\Textures\\redblue.jpg"))
+	if (Terrain.Load("Data\\Textures\\dirt_earth-n-moss_df_.dds"))
 	{
 		glGenTextures(1, &t_tex);
 		glBindTexture(GL_TEXTURE_2D, t_tex);
@@ -456,7 +456,7 @@ bool Renderer::InitialiseGeometry()
 	}
 	else
 	{
-		MessageBox(NULL, L"Texture not found", L"Error, you're an idiot", MB_OK | MB_ICONEXCLAMATION);
+		MessageBox(NULL, L"Texture not found", L"Error", MB_OK | MB_ICONEXCLAMATION);
 		return false;
 	}
 	for (glm::vec3& n : normals)
